@@ -1,6 +1,6 @@
 This package has been successfully compiled on Ubuntu 12.04 64 bit.
 Packages required include
-cmake gfortran gcc libncurses5-dev libx11-dev
+cmake gfortran gcc libncurses5-dev libx11-dev libreadline-dev
 
 If there are any issues building this program please contact us through:
 http://www.github.com/devsim/pisces
@@ -10,6 +10,8 @@ To begin compiling start from the top level directory containing CMakeLists.txt:
 2. cd cmake
 3. cmake -DCMAKE_BUILD_TYPE=DEBUG ..
 4. make 
+
+If you have trouble finding dependent headers, please use apt-cache (for ubuntu) to help find the right package.
 
 The programs in this distribution will then build with debugging symbols.
 
